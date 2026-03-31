@@ -22,3 +22,8 @@ Console.WriteLine("8 / 6 = " + divide(8,6));
 static double average(int[] tab){
     return tab.Average();
 }
+
+static int max(int a, int b)
+{
+    return a > b ? a : b;
+}
